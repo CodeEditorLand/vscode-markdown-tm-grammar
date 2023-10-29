@@ -1,32 +1,30 @@
 {
   "name": "vscode-markdown-tm-grammar",
-  "private": "false",
   "version": "0.0.1",
+  "private": "false",
   "description": "",
-  "main": "index.js",
-  "scripts": {
-    "build": "node build",
-    "test": "node ./test/runTest.js",
-    "prepublishOnly": "TypeScriptESBuild Source/**/*.ts"
-  },
-  "activationEvents": [],
-  "engines": {
-    "vscode": "1.55.0"
+  "keywords": [],
+  "homepage": "https://github.com/CodeEditorLand/CodeEditorLand#readme",
+  "bugs": {
+    "url": "https://github.com/CodeEditorLand/CodeEditorLand/issues"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/CodeEditorLand/CodeEditorLand.git"
   },
-  "keywords": [],
+  "license": "MIT",
   "author": {
     "name": "Nikola Hristov",
     "email": "nikola@nikolahristov.tech",
     "url": "https://nikolahristov.tech"
   },
-  "publisher": "Microsoft",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/CodeEditorLand/CodeEditorLand/issues"
+  "publisher": "playform",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "build": "node build",
+    "prepublishOnly": "TypeScriptESBuild Source/**/*.ts",
+    "test": "node ./test/runTest.js"
   },
   "contributes": {
     "grammars": [
@@ -37,15 +35,17 @@
       }
     ]
   },
-  "homepage": "https://github.com/CodeEditorLand/CodeEditorLand#readme",
+  "activationEvents": [],
   "devDependencies": {
     "js-yaml": "4.1.0",
     "mocha": "10.2.0",
     "plist": "3.1.0",
-    "vscode-test": "1.6.1",
-    "typescript-esbuild": "0.3.1"
+    "typescript-esbuild": "0.3.1",
+    "vscode-test": "1.6.1"
   },
-  "type": "module",
+  "engines": {
+    "vscode": "1.55.0"
+  },
   "publishConfig": {
     "access": "public"
   }
