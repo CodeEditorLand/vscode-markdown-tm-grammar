@@ -1,12 +1,13 @@
 {
   "name": "vscode-markdown-tm-grammar",
-  "private": true,
-  "version": "1.0.0",
+  "private": "false",
+  "version": "0.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
     "build": "node build",
-    "test": "node ./test/runTest.js"
+    "test": "node ./test/runTest.js",
+    "prepublishOnly": "TypeScriptESBuild Source/**/*.ts"
   },
   "activationEvents": [],
   "engines": {
@@ -14,14 +15,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/mjbvz/vscode-markdown-tm-grammar.git"
+    "url": "git+https://github.com/CodeEditorLand/CodeEditorLand.git"
   },
   "keywords": [],
-  "author": "Microsoft",
+  "author": {
+    "name": "Nikola Hristov",
+    "email": "nikola@nikolahristov.tech",
+    "url": "https://nikolahristov.tech"
+  },
   "publisher": "Microsoft",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mjbvz/vscode-markdown-tm-grammar/issues"
+    "url": "https://github.com/CodeEditorLand/CodeEditorLand/issues"
   },
   "contributes": {
     "grammars": [
@@ -32,11 +37,16 @@
       }
     ]
   },
-  "homepage": "https://github.com/mjbvz/vscode-markdown-tm-grammar#readme",
+  "homepage": "https://github.com/CodeEditorLand/CodeEditorLand#readme",
   "devDependencies": {
     "js-yaml": "4.1.0",
     "mocha": "10.2.0",
     "plist": "3.1.0",
-    "vscode-test": "1.6.1"
+    "vscode-test": "1.6.1",
+    "typescript-esbuild": "0.3.1"
+  },
+  "type": "module",
+  "publishConfig": {
+    "access": "public"
   }
 }
