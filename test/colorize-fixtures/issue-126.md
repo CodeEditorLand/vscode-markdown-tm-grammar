@@ -6,4 +6,4 @@ cd ~/$foo
 cd ~/$foo
 ```
 
-```foo```
+`foo`

@@ -1,8 +1,4 @@
-[link1][ref1] 
-[link2][ref-2]
-[link3][ref_3]
-[link4][ref 4]
-[link5][ref5.0]
+[link1][ref1] [link2][ref-2] [link3][ref_3] [link4][ref 4] [link5][ref5.0]
 [link6]
 
 [ref1]: http://localhost/
