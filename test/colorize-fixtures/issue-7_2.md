@@ -1,2 +1,4 @@
-\*italics**\*bold** **bold\***italics**\*bold**
-**bold\***italics\* \***\*bold\*\***
+*italics***bold**
+**bold***italics***bold**
+**bold***italics*
+****bold****

@@ -1,52 +1,42 @@
 {
-	"name": "vscode-markdown-tm-grammar",
-	"version": "0.0.1",
-	"private": "false",
-	"description": "",
-	"keywords": [],
-	"homepage": "https://github.com/CodeEditorLand/CodeEditorLand#readme",
-	"bugs": {
-		"url": "https://github.com/CodeEditorLand/CodeEditorLand/issues"
-	},
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/CodeEditorLand/CodeEditorLand.git"
-	},
-	"license": "MIT",
-	"author": {
-		"name": "Nikola Hristov",
-		"email": "nikola@nikolahristov.tech",
-		"url": "https://nikolahristov.tech"
-	},
-	"publisher": "playform",
-	"type": "module",
-	"main": "index.js",
-	"scripts": {
-		"build": "node build",
-		"prepublishOnly": "TypeScriptESBuild 'Source/**/*.ts'",
-		"test": "node ./test/runTest.js"
-	},
-	"contributes": {
-		"grammars": [
-			{
-				"language": "markdown",
-				"scopeName": "text.html.markdown",
-				"path": "./syntaxes/markdown.tmLanguage"
-			}
-		]
-	},
-	"activationEvents": [],
-	"devDependencies": {
-		"js-yaml": "4.1.0",
-		"mocha": "10.2.0",
-		"plist": "3.1.0",
-		"typescript-esbuild": "0.3.1",
-		"vscode-test": "1.6.1"
-	},
-	"engines": {
-		"vscode": "1.55.0"
-	},
-	"publishConfig": {
-		"access": "public"
-	}
+  "name": "vscode-markdown-tm-grammar",
+  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "node build",
+    "test": "node ./test/runTest.js"
+  },
+  "activationEvents": [],
+  "engines": {
+    "vscode": "^1.55.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mjbvz/vscode-markdown-tm-grammar.git"
+  },
+  "keywords": [],
+  "author": "Microsoft",
+  "publisher": "Microsoft",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mjbvz/vscode-markdown-tm-grammar/issues"
+  },
+  "contributes": {
+    "grammars": [
+      {
+        "language": "markdown",
+        "scopeName": "text.html.markdown",
+        "path": "./syntaxes/markdown.tmLanguage"
+      }
+    ]
+  },
+  "homepage": "https://github.com/mjbvz/vscode-markdown-tm-grammar#readme",
+  "devDependencies": {
+    "js-yaml": "^3.13.1",
+    "mocha": "^10.0.0",
+    "plist": "^3.0.4",
+    "vscode-test": "^1.6.1"
+  }
 }

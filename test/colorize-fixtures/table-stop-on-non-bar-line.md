@@ -6,5 +6,4 @@ TODO: This isn't correct as we should only be terminated by a block level elemen
 | abc | def |
 | --- | --- |
 | bar | baz |
-
 > bar

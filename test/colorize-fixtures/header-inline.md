@@ -1,9 +1,7 @@
 # a **bold** b
-
 ## a **bold** b
-
 ### a **bold** b
 
-# _italic_
+# *italic*
 
 # <kbd>kbd</kbd>

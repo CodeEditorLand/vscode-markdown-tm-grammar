@@ -2,13 +2,16 @@
 
 Highlighted:
 
-[test]() (None) [test]() (U+0020, SPACE) M[test]() (U+004D, LATIN CAPITAL LETTER
-M)
+[test]() (None)
+ [test]() (U+0020, SPACE)
+M[test]() (U+004D, LATIN CAPITAL LETTER M)
 
 Not highlighted:
 
-[test]() (U+2002, EN SPACE)  [test]() (U+2003, EM SPACE) 　[test]() (U+3000,
-IDEOGRAPHIC SPACE)
+ [test]() (U+2002, EN SPACE)
+ [test]() (U+2003, EM SPACE)
+　[test]() (U+3000, IDEOGRAPHIC SPACE)
+
 
 Code blocks (should not be highlighted):
 
@@ -18,4 +21,4 @@ Spaces:
 
 Tab:
 
-    [test]() (None)
+	[test]() (None)

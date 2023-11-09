@@ -1,7 +1,7 @@
 [a link](http://example.com)
 
-_[a link](http://example.com)_
+*[a link](http://example.com)*
 
 **[a link](http://example.com)**
 
-**_[a link](http://example.com)_**
+***[a link](http://example.com)***
