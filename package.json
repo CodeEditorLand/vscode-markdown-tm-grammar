@@ -1,42 +1,46 @@
 {
-  "name": "vscode-markdown-tm-grammar",
-  "private": true,
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "build": "node build",
-    "test": "node ./test/runTest.js"
-  },
-  "activationEvents": [],
-  "engines": {
-    "vscode": "1.55.0"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/mjbvz/vscode-markdown-tm-grammar.git"
-  },
-  "keywords": [],
-  "author": "Microsoft",
-  "publisher": "Microsoft",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/mjbvz/vscode-markdown-tm-grammar/issues"
-  },
-  "contributes": {
-    "grammars": [
-      {
-        "language": "markdown",
-        "scopeName": "text.html.markdown",
-        "path": "./syntaxes/markdown.tmLanguage"
-      }
-    ]
-  },
-  "homepage": "https://github.com/mjbvz/vscode-markdown-tm-grammar#readme",
-  "devDependencies": {
-    "js-yaml": "4.1.0",
-    "mocha": "10.3.0",
-    "plist": "3.1.0",
-    "vscode-test": "1.6.1"
-  }
+	"name": "vscode-markdown-tm-grammar",
+	"version": "0.0.1",
+	"private": false,
+	"description": "",
+	"homepage": "https://github.com/CodeEditorLand/Foundation#readme",
+	"bugs": {
+		"url": "https://github.com/CodeEditorLand/Foundation/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/CodeEditorLand/Foundation.git"
+	},
+	"license": "SEE LICENSE IN LICENSE",
+	"author": {
+		"name": "Playform",
+		"email": "Hello@Playform.Cloud",
+		"url": "https://playform.cloud"
+	},
+	"type": "module",
+	"main": "index.js",
+	"scripts": {
+		"build": "node build",
+		"prepublishOnly": "TypeScriptESBuild 'Source/**/*.ts'"
+	},
+	"contributes": {
+		"grammars": [
+			{
+				"language": "markdown",
+				"path": "./syntaxes/markdown.tmLanguage",
+				"scopeName": "text.html.markdown"
+			}
+		]
+	},
+	"activationEvents": [],
+	"devDependencies": {
+		"js-yaml": "4.1.0",
+		"mocha": "10.3.0",
+		"plist": "3.1.0",
+		"typescript-esbuild": "latest",
+		"vscode-test": "1.6.1"
+	},
+	"publishConfig": {
+		"access": "public"
+	}
 }
