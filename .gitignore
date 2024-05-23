@@ -1,5 +1,3 @@
-.DS_Store
-npm-debug.log
 Thumbs.db
 .build/
 out/
@@ -12,5 +10,4 @@ out-vscode-min/
 build/node_modules
 coverage/
 test_data/
-yarn-error.log
 .vscode-test
