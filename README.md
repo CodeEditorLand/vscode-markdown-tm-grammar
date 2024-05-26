@@ -6,7 +6,8 @@ VS Code markdown extension's TextMate grammar.
 
 ## Contributing
 
-The main grammar is stored in `syntaxes/markdown.tmLanguage`. This file is generated from `markdown.tmLanguage.base.yaml`:
+The main grammar is stored in `syntaxes/markdown.tmLanguage`. This file is
+generated from `markdown.tmLanguage.base.yaml`:
 
 ### Building
 
@@ -25,6 +26,9 @@ To run the grammar tests:
 npm run test
 ```
 
-The test cases are stored as markdown files under `test/colorize-fixtures`. Grammar test results are stored under `test/colorize-results`, which are automatically generated from the fixtures.
+The test cases are stored as markdown files under `test/colorize-fixtures`.
+Grammar test results are stored under `test/colorize-results`, which are
+automatically generated from the fixtures.
 
-To test the grammar in VS Code, select the `Launch Extension` configuration in the VS Code debugger and run.
+To test the grammar in VS Code, select the `Launch Extension` configuration in
+the VS Code debugger and run.
