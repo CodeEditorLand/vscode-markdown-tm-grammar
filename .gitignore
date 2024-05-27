@@ -1,4 +1,7 @@
+.DS_Store
+npm-debug.log
 Thumbs.db
+node_modules/
 .build/
 out/
 out-build/
@@ -10,4 +13,5 @@ out-vscode-min/
 build/node_modules
 coverage/
 test_data/
+yarn-error.log
 .vscode-test
