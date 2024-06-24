@@ -16,7 +16,7 @@
 	},
 	"activationEvents": [],
 	"devDependencies": {
-		"js-yaml": "^3.13.1",
-		"plist": "^3.0.4"
+		"js-yaml": "^4.1.0",
+		"plist": "^3.1.0"
 	}
 }
