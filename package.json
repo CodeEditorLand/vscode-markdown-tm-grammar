@@ -1,5 +1,10 @@
 {
-	"activationEvents": [],
+	"name": "vscode-markdown-tm-grammar",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"build": "node build"
+	},
 	"contributes": {
 		"grammars": [
 			{
@@ -9,14 +14,9 @@
 			}
 		]
 	},
-	"description": "",
+	"activationEvents": [],
 	"devDependencies": {
 		"js-yaml": "3.13.1",
 		"plist": "3.0.4"
-	},
-	"main": "index.js",
-	"name": "vscode-markdown-tm-grammar",
-	"scripts": {
-		"build": "node build"
 	}
 }
