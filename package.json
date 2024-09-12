@@ -11,8 +11,8 @@
 	},
 	"description": "",
 	"devDependencies": {
-		"js-yaml": "^3.13.1",
-		"plist": "^3.0.4"
+		"js-yaml": "3.13.1",
+		"plist": "3.0.4"
 	},
 	"main": "index.js",
 	"name": "vscode-markdown-tm-grammar",
