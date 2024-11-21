@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "vscode-markdown-tm-grammar",
   "private": true,
   "version": "1.0.0",
@@ -39,4 +40,26 @@
     "plist": "3.1.0",
     "vscode-test": "1.6.1"
   }
+=======
+	"name": "vscode-markdown-tm-grammar",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"build": "node build"
+	},
+	"contributes": {
+		"grammars": [
+			{
+				"language": "markdown",
+				"path": "./syntaxes/markdown.tmLanguage",
+				"scopeName": "text.html.markdown"
+			}
+		]
+	},
+	"activationEvents": [],
+	"devDependencies": {
+		"js-yaml": "4.1.0",
+		"plist": "3.1.0"
+	}
+>>>>>>> d4b6144b9f810de1c2a4930e4c83325f109fc701
 }
