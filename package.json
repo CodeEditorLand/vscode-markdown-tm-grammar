@@ -1,1 +1,43 @@
-
+{
+	"name": "@codeeditorland/markdown-tm-grammar",
+	"version": "1.0.0",
+	"private": true,
+	"description": "",
+	"keywords": [],
+	"homepage": "https://github.com/mjbvz/vscode-markdown-tm-grammar#readme",
+	"bugs": {
+		"url": "https://github.com/mjbvz/vscode-markdown-tm-grammar/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/mjbvz/vscode-markdown-tm-grammar.git"
+	},
+	"license": "MIT",
+	"author": "Microsoft",
+	"publisher": "Microsoft",
+	"main": "index.js",
+	"scripts": {
+		"build": "node build",
+		"test": "node ./test/runTest.js"
+	},
+	"contributes": {
+		"grammars": [
+			{
+				"language": "markdown",
+				"path": "./syntaxes/markdown.tmLanguage",
+				"scopeName": "text.html.markdown"
+			}
+		]
+	},
+	"activationEvents": [],
+	"dependencies": {},
+	"devDependencies": {
+		"@codeeditorland/test": "^1.6.1",
+		"js-yaml": "^3.13.1",
+		"mocha": "^10.0.0",
+		"plist": "^3.0.4"
+	},
+	"engines": {
+		"vscode": "^1.55.0"
+	}
+}
